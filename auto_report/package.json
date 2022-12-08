@@ -1,0 +1,41 @@
+{
+  "name": "dream",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cheerio": "^1.0.0-rc.3",
+    "cheerio-tableparser": "^1.0.1",
+    "connect-flash": "^0.1.1",
+    "connect-mongo": "^2.0.1",
+    "convert-csv-to-json": "0.0.15",
+    "cookie-parser": "^1.4.3",
+    "csvjson": "^5.1.0",
+    "csvtojson": "^2.0.10",
+    "ejs": "^2.6.1",
+    "excel4node": "^1.7.2",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "iconv-lite": "^0.5.0",
+    "moment": "^2.24.0",
+    "moment-timezone": "^0.5.27",
+    "mongodb": "^3.0.2",
+    "mongoose": "^4.11.2",
+    "mongoose-auto-increment": "^5.0.1",
+    "morgan": "^1.9.0",
+    "node-excel-export": "^1.4.4",
+    "node-xlsx": "^0.15.0",
+    "nodemon": "^2.0.2",
+    "officegen": "^0.6.4",
+    "path": "^0.12.7",
+    "puppeteer": "^1.20.0",
+    "request": "^2.85.0",
+    "xlsx": "^0.16.8"
+  }
+}
